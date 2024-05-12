@@ -1,5 +1,5 @@
 {% set name = "bincopy" %}
-{% set version = "17.14.5" %}
+{% set version = "19.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bincopy-{{ version }}.tar.gz
-  sha256: 5f4de7c37a3db7adcf3edc4833a223f3356d9bf08be72ec6e431c9f0acd29f18
+  sha256: 99b85d541d836010d06f944f46cf474fa7d6852866bad04d0659d9355f838bc2
 
 build:
   number: 0
